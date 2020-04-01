@@ -1,0 +1,408 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav {
+   
+  background-color:#6D3ED8;
+    border-radius: 0px 0px 10px 10px;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.head-title{
+    padding-top: 0px!important;
+    color: white;
+    
+}
+.navul li{
+    margin-top: 10px;
+}
+.navul li a:hover{
+   border-radius: 10px;
+   box-shadow: 1px 1px 30px 5px white;
+   color: black!important;
+}
+
+
+.hiremeone {
+    border-radius: 20px !important;
+    background-color:darkgoldenrod!important;
+    margin-top: 5px;
+}
+
+.hiremeone a:hover {
+    color: white !important;
+    border-radius: 0;
+    box-shadow: none!important;
+}
+
+.hiremeone:hover {
+    background-color: #6D3ED8;
+}
+
+.headnaveffect a:hover {
+    color: #B8860B !important;
+}
+#cover{
+padding: 300px 0px;
+padding-bottom: 180px!important;
+}
+
+
+
+.head-title h1 {
+    font-weight: 600;
+    border-top: 2px solid white;
+    width: 51%;
+    border-bottom: 2px solid white;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.head-title p {
+    width: 52%;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+#aboutme {
+    padding-top: 80px;
+    border-radius: 10px;
+}
+
+.aboutmeimg {
+    text-align: center;
+}
+
+.aboutmeimg img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.aboutmetext {}
+
+.aboutmetext h2 {
+    font-weight: 600;
+}
+
+.aboutmetext h1 {
+    color: #DEDEDE;
+    font-weight: 700;
+
+}
+
+.aboutmetext p {
+    padding-top: 30px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    opacity: 80%
+}
+
+.aboutmebtn1 {
+    padding: 6px 20px;
+    background-color: #6D3ED8;
+    border: 0px solid;
+    border-radius: 20px;
+    color: white;
+    ;
+}
+
+.aboutmebtn2 {
+    margin-left: 5px;
+    padding: 6px 20px;
+    border: 1px solid #6D3ED8;
+    border-radius: 20px;
+    outline:none;
+    outline-style: none;
+
+}
+
+.aboutmebtn2:hover {
+    background-color: #6D3ED8;
+    color: white
+}
+
+.abtbtn {
+    padding-top: 20px;
+}
+
+#gallery {
+    padding: 80px 0px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.gallerylihover:hover {
+    background-color: #6D3ED8;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    border-radius: 5px;
+}
+
+.gallerylihover a:hover {
+    color: white !important;
+}
+
+.gallerylihover {
+    margin-bottom: 40px !important;
+    margin: 0;
+    display:block;
+
+}
+
+.gallerylihover a {
+    color: black !important;
+}
+
+.galleryimgsection {
+    width: 230px;
+    height: 230px;
+    background-color: aqua;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 30px 1px;
+
+
+}
+
+
+.loadmore {
+    text-align: center;
+
+}
+
+.loadmore button {
+    margin-top: 80px;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    background-color: darkgray;
+    color: black;
+    font-weight: 700;
+
+}
+
+.loadmore button:hover {
+    background-color: #6D3ED8;
+    color: white;
+}
+
+/*Gallery end*/
+#working-proccess {
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.workproccessg {
+    padding-top: 40px;
+}
+
+.workproccessg .co {
+    width: 230px;
+    height: 230px;
+    background-color: navy;
+    border-radius: 25px;
+    box-shadow: 1px 1px 50px 1px black;
+
+}
+
+.workproccessg:first-child co {
+    margin-left: 0
+}
+
+.workproccessg:last-child co {
+    margin-right: 0;
+}
+
+.box-content {
+    margin-top: 60px;
+}
+
+.box-content i {
+    font-size: 70px;
+    color: white;
+}
+
+.box-content h3 {
+    font-size: 40px;
+    color: white;
+
+}
+
+
+/*NAV HEAD*/
+.orange.lighten-1 {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.orange {
+    background-color: transparent !important;
+}
+
+.nav-item.active > .nav-link {
+    background-color: transparent !important;
+}
+
+/*NAV HEAD*/
+#workex {
+    
+}
+
+.worksection {
+    padding: 10px 30px;
+    color: white;
+    box-shadow: 1px 1px 50px 5px black;
+    border-radius: 10px;
+}
+
+.worksection h1 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.worksection h4 {
+    padding-top: 10px;
+    font-weight: 500;
+    opacity: 80%
+}
+
+.worksection p {
+    opacity: 80%;
+    text-align: justify;
+    padding-top: 8px;
+}
+
+.worksection span {
+    font-family: cursive;
+    font-size: 15px;
+    opacity: 40%;
+}
+
+.worksection hr {
+    height: 3px;
+    margin-left: 0;
+    background-color: white;
+    opacity: 30%
+}
+
+.rfricon a:nth-child(1) {
+    color: #3b5998;
+}
+
+.rfricon a:nth-child(2) {
+    color: #55acee;
+}
+
+.rfricon a:nth-child(3) {
+    color: #3f729b;
+}
+
+.rfricon a:nth-child(4) {
+    color: #00405d;
+}
+
+.rfricon a:nth-child(5) {
+    color: #0077b5;
+}
+
+.rfricon a:nth-child(6) {
+    color: #1769ff;
+}
+
+.rfricon a:nth-child(7) {
+    color: #dc4e41;
+}
+
+.rfricon a:nth-child(8) {
+    color: #cd201f;
+}
+
+#reference {
+    padding: 50px 0px;
+}
+
+.findme {
+    text-align: center;
+}
+
+.findme hr {
+    max-width: 20%;
+    height: 2px;
+    background-color: #3565B8;
+}
+
+.rfricon {
+    text-align: center;
+    padding-top: 10px
+}
+
+.rfricon a:first-child i {
+    width: 90px;
+}
+
+.rfricon a i {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 3px solid;
+    width: 90px;
+    margin-top: 10px;
+
+}
+
+.rfricon a i:hover {
+    background-color: #3665B8;
+    color: white;
+    box-shadow: 1px 1px 20px 10px;
+}
+#massage{
+    background-color:#F6F6F6;
+    padding-top: 80px!important;
+}
+.lastsendbtn{
+    border-radius:20px;
+    color: white;
+}
+#address{}
+#address .container{}
+#address .container address{}
+.addresscol{
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px 10px black;
+}
+.addresscol p{
+    
+    padding-top: 10px;
+}
+.addresscol i{
+    font-size: 50px;
+}
+#footer{
+    background-color: #6D3ED8;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.rgba-red-strong, .rgba-red-strong::after {
+
+    background-color: rgba(244,67,54,0.7);
+    border-radius: 30px;
+
+}
+.galleryefct{
+    height:230px;width:230px;border-radius:30px;
+}
